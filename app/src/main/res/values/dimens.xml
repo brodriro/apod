@@ -3,4 +3,7 @@
     <dimen name="height_cardview">240dp</dimen>
     <dimen name="cardview_margin">16dp</dimen>
     <dimen name="copyright_margin">24dp</dimen>
+    <dimen name="textsize_title">18sp</dimen>
+    <dimen name="paragraph_margin">16dp</dimen>
+    <dimen name="textsize_subtitle">16sp</dimen>
 </resources>
