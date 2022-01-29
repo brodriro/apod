@@ -2,6 +2,7 @@ package com.brodriro.apod.presentation.base;
 
 
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.annotation.LayoutRes;
 import androidx.annotation.Nullable;
@@ -33,6 +34,5 @@ public abstract class BaseDaggerActivity<T extends MVPContract.BasePresenter> ex
         super.onDestroy();
     }
 
-    @LayoutRes
-    protected abstract int getLayout();
+    protected abstract View getLayout();
 }

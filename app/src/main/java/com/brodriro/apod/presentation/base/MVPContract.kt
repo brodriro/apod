@@ -6,7 +6,7 @@ interface MVPContract {
     interface BasePresenter<T : BaseView> {
         fun bindView(view: T)
         fun unbindView()
-        val view : T
+        val view: T
     }
 
     interface BaseView {

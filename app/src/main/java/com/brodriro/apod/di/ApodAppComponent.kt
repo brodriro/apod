@@ -11,7 +11,9 @@ import dagger.android.support.AndroidSupportInjectionModule
     modules = [
         AndroidInjectionModule::class,
         AndroidSupportInjectionModule::class,
-        PresentationModule::class
+        PresentationModule::class,
+        NetworkModule::class,
+        DataModule::class
     ]
 )
 interface ApodAppComponent : AndroidInjector<ApodApplication> {
